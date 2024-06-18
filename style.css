@@ -1,0 +1,525 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /*background-color:yellow;*/
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-family: monument;
+}
+#main-h{
+    font-family: monument;
+    font-size: 20px;
+    color:purple;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15%;
+    left: 50%;
+    font-family: monument;
+    font-size:20px;
+    font-weight: 200;
+}
+#but>button{
+    font-size: 25px;
+    font-family: monument;
+    background-color:purple;
+    color: white;
+    border: 2px solid purple;
+    border-radius: 40px;
+    padding: 5px 9px;
+    right: 50%;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+   /* background-color: yellowgreen;*/
+    display: flex;
+    align-items:center;
+    justify-content: space-between;    
+}
+#left{
+    height: 100%;
+    width: 50%;
+    /*background-color: yellow;*/
+    color: black;
+   /* display: flex;
+    justify-content: space-between;*/
+       padding-top: 10%;
+}
+#l1{
+    height: 55px;
+    width: 100%;
+    margin: 0px 50px;
+    font-family: monument;
+    color: black;
+    font-size: 4vh;
+    
+}
+#l2{
+    height: 50px;
+    width: 100%;
+    /*background-color: brown;*/
+    margin: 50px;
+    font-family: monument;
+    font-size: 4vh;
+    color: purple;
+    margin-top: 80px;
+}
+#l3{
+    height: 80px;
+    width: 100%;
+    /*background-color: red;*/
+    font-size: 3vh;
+    font-family: Regular-bold;
+    margin: 50px;
+}
+#l4{
+    height: 20px;
+    width: 100%;
+ /*   background-color: red;*/
+}
+
+#l4>button{
+    height: 50px;
+    width: 15vw;
+    /*background-color: yellow;*/
+    margin: 0px 50px;
+    font-family: monument;
+    font-size: 3vh;
+    color: white;
+    background-color: purple;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#right{
+    height: 80%;
+    width: 50%;
+    /*background-color:chartreuse ;*/
+   padding: 20px auto;
+   background-image: url(img/mus.jpeg);
+   background-repeat: no-repeat;
+   object-fit: cover;
+   margin-left: 90px;
+   border-radius: 50px;
+}
+#page3{
+    height: 22%;
+    width: 100%;
+   /*background-color: yellowgreen;*/
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+*/
+}
+#p1{
+    height: 50px;
+    width: 100%;
+    /*background-color: yellow;*/
+   font-family: monument;
+   font-size: 3.5vh;
+   color: purple;
+    
+}
+#p2{
+    height: 50px;
+    width: 100%;
+/*    background-color: red;*/
+    padding: 20px 31%;
+    font-size: 3vh;
+    font-family: monument;
+}
+#p3{
+    height: 50px;
+    width: 100%;
+    /*background-color: pink;*/
+    padding: 15px 35%;
+    font-size: 2.7vh;
+    font-family: Regular-Bold;
+}
+#car{
+    height: 50%;
+    width: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 30px 0px;
+}
+
+#c1{
+    height: 400px;
+    width: 350px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    background-image: url(https://i.pinimg.com/564x/f0/46/d9/f046d97558e58cbecb3ae3d3d82714b6.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#c2{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    margin: 20px 10px;
+    background-image: url(img/Lexus\ LC500\ review_\ Limited\ Edition\ is\ a\ green\ on\ tan\ dream\ Reviews\ 2024\ _\ Top\ Gear.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#c3{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/1eda1969-244f-43ba-af38-347d47946dab.jpg);
+}
+#c4{
+    height: 400px;
+    width: 300px;
+   /* background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/2024\ GMC\ Hummer\ EV\ SUV.jpg);
+}
+
+#car1{
+    height: 50%;
+    width: 100%;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#c5{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/2024\ Toyota\ LandCruiser\ 300\ Series.jpg);
+}
+
+#c6{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    margin: 10px 5px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/50075b4e-513d-4e66-8bc4-7d0f1cbf3e15.jpg);
+   
+}
+#c7{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/Amazing\ Lamborghini.jpg);
+}
+#c8{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/Elif🦋\ _\ Luxury\ cars\,\ Dodge\ trucks\,\ Offroad\ trucks.jpg);
+}
+
+#car2{
+    height: 50%;
+    width: 100%;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#c9{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/10.jpeg)
+}
+#c10{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/11.jpeg);
+}
+#c11{
+    height: 450px;
+    width: 240px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/Cars\ lovers.jpeg);
+}
+#c12{
+    height: 400px;
+    width: 350px;
+    /*background-color: red;*/
+    margin: 10px 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/omus.jpeg);
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    /*background-color: tomato;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 30px;
+}
+#int1{
+    height: 100%;
+    width: 50%;
+    /*background-color: blueviolet;*/
+    background-image: url(img/🚗🏁\ Vintage\ Cars\ Collections\ Tshirt\ Art.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#int2{
+    height: 100%;
+    width: 50%;
+ /*   background-color:teal;*/
+    font-family: monument;
+    font-size: 4vh;
+    color: purple;
+    text-transform: uppercase;
+}
+#int2>p{
+    color: black;
+    font-family: Regular-Bold;
+    font-size: 2.5vh;
+}
+#int2>button{
+    height: 8vh;
+    width: 15vw;
+    font-size: 4.5vh;
+    background-color: purple;
+    color: white;
+    border: 2px solid purple;
+    border-radius: 9px;
+    margin: 50px 0px;
+}
+#page5{
+    height: 15%;
+    width: 100%;
+   /* background-color: yellowgreen;*/
+    
+}
+#our{
+    height: 50px;
+    width: 100%;
+    /*background-color: red;*/
+    font-family: monument;
+    font-size: 3vh;
+    text-align: center;
+    color: purple;
+
+}
+#our>p{
+    height: 20px;
+    width: 100%;
+    /*background-color: blue;*/
+    text-align: center;
+    margin: auto;
+    font-family: Regular-Bold;    
+}
+#page6{
+    height: 80%;
+    width: 100%;
+/*    background-color: brown;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#f1{
+    height: 350px;
+    width: 25%;
+   /* background-color: yellow;*/
+    margin: 10px;
+    background-image: url(img/r3\ \(4\).jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#f2{
+    height: 350px;
+    width: 25%;
+    /*background-color:turquoise;*/
+    margin: 50px 10px;
+    background-image: url(img/r3\ \(5\).jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#f3{
+    height: 350px;
+    width: 25%;
+  /*  background-color:chartreuse;*/
+    margin: 50px 10px;
+    background-image: url(img/r3\ \(6\).jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#review{
+    height: 80%;
+    width: 100%;
+/*    background-color: brown;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#f4{
+    height: 350px;
+    width: 25%;
+  /*  background-color:chartreuse;*/
+    margin: 50px 10px;
+    background-image: url(img/r4.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#f5{
+    height: 350px;
+    width: 25%;
+  /*  background-color:chartreuse;*/
+    margin: 50px 10px;
+    background-image: url(img/r5.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#f6{
+    height: 350px;
+    width: 25%;
+  /*  background-color:chartreuse;*/
+    margin: 50px 10px;
+    background-image: url(img/r6.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#page7{
+    height: 50%;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#fo1{
+    height: 100%;
+    width: 50%;
+   /* background-color: cyan;*/
+ 
+    padding: 80px;
+}
+#fo1 h1{
+    font-family: monument;
+    color: white;
+    font-size: 7.5vh;
+    border-bottom: 2px solid white;
+}
+#fo1 p{
+    color: white;
+    font-size: 2vh;
+    font-family: Regular-Bold;
+    padding: 20px;
+}
+#fo1 i{
+    font-size: 3.5vh;
+    color: white;
+}
+#fo2{
+    height: 100%;
+    width: 25%;
+    background-color: purple;
+    padding: 15px 20px;
+    
+}
+#fo2 h1{
+    color: white;
+    font-size: 3.8vh;
+    font-family: monument;
+    border-bottom: 2px solid white;
+}
+#ab{
+    height: 80%;
+    width: 110%;
+    /*background-color: chartreuse;*/
+    padding: 10px 20px;
+    color: white;
+    font-family: Regular-Bold;
+    font-size: 2vh;
+}
+
+#fo3{
+    height: 100%;
+    width: 25%;
+    /*background-color:yellow;*/
+}
+#fo3 h1{
+    color: white;
+    font-family: monument;
+    font-size: 3.8vh;
+    padding: 10px 20px;
+    border-bottom: 2px solid white;
+}
+#fo3 h3{
+    color: white;
+    font-family: Regular-Bold;
+    font-size: 2.5vh;
+}
